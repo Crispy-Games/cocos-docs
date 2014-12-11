@@ -13,7 +13,7 @@
 ## Compilation Plugin-X project
 1. Run publish.sh script path for plugin-x / tools / publish.sh. This script in Mac OSX Mountain Lion v10.8.2 and Cygwin on Windows 7 test well in the first run when the script, it will allows you to enter some parameters to set up the environment, as follows
 
-! [xx] (res / plugin-x-setting-environment.jpg)
+![xx] (res / plugin-x-setting-environment.jpg)
 
 On Windows, the path you enter the path should be entered in the form of Linux Example: You can enter C: / adt-bundle-windows / sdk, instead of C: \ adt-bundle-windows \ sdk
 
