@@ -34,7 +34,10 @@ Facebook is implemented as a Cocos2d-X Plugin.
 1. Generate Publish Folder for Plugins.
   1. Ensure you have both android-7 and android-21 in your SDK. If not, fire up SDK Manager and download android-7. Step 2 fails unless this is done.
   2. Go to `/cocos2d/plugin/tools` and run `publish.sh`. 
-2. Modify AppActivity.java
+2. Add JARS from 'plugin-x' (now visible in eclipse) to BuildPath.
+3. Add same jars into build.xml
+4. Create "DependProject/src" folder manually.
+5. Modify AppActivity.java
 ```
 ...
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
