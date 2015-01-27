@@ -38,6 +38,7 @@ Facebook is implemented as a Cocos2d-X Plugin.
 3. Add same jars into build.xml
 4. Create "DependProject/src" folder manually.
 5. Modify AppActivity.java
+6. Make sure all JARS have export ON.
 ```
 ...
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
